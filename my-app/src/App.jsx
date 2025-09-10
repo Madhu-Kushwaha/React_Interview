@@ -7,6 +7,7 @@ import CounterWithTitle from './useEffect/CounterWithTitle'
 import Timer from './useEffect/Timer'
 import LocalStorageInput from './useEffect/LocalStorage'
 import NetworkStatus from './useEffect/NetworkStatus'
+import Axios from './useEffect/Axios'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,10 @@ function App() {
     {/* <CounterWithTitle/> */}
     {/* <Timer/> */}
     {/* <LocalStorageInput/> */}
-    <NetworkStatus/>
+    {/* <NetworkStatus/> */}
+
+  {/* <fetchPosts/> */}
+  <Axios/>
     </>
   )
 }
